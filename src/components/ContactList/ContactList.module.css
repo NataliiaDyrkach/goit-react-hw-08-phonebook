@@ -1,0 +1,36 @@
+.list {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+  gap: 15px;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 80px;
+  height: 24px;
+
+  background-color: #1a73e8;
+  color: #fff;
+  font-family: inherit;
+  border: none;
+  border-radius: 6px;
+
+  cursor: pointer;
+  transition: background-color, color 250ms linear;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #000cb6b7;
+  color: #000;
+}

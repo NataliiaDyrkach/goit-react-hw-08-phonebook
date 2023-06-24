@@ -1,0 +1,22 @@
+.container{
+  display: flex;
+}
+
+.link {
+  text-decoration: none;
+  width: 100px;
+  padding: 0 15px;
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+  transition: all 250ms linear;
+
+  &:hover {
+        transform: scale(1.15);
+    }  
+   
+  &.active {
+        color: #050b5c;
+    }
+}
+
